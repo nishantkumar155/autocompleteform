@@ -1,0 +1,14 @@
+hello_world.content:
+  path: '/testform'
+  defaults:
+     _title: 'navliform'
+     _form: '\Drupal\test_form\Form\NavliForm'
+  requirements:
+    _permission: 'access content'
+
+country.autocomplete:
+  path: '/test_form/autocomplete'
+  defaults:
+    _controller: '\Drupal\test_form\Controller\TestFormAutocomplete::autocomplete'
+  requirements:
+    _permission: 'access content'
