@@ -1,5 +1,0 @@
-type: module
-name: 'Test Form'
-description: 'Test Form'
-version: '8.x-1.x-dev'
-core: '8.x'
