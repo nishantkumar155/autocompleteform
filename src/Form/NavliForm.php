@@ -29,7 +29,7 @@ class NavliForm extends FormBase {
             '#title' => t('Search'),
             '#required' => TRUE,
             '#autocomplete_route_name' => 'country.autocomplete',
-            '#autocomplete_route_parameters' => array('a' => $some_key, 'b' => $some_id),
+            //'#autocomplete_route_parameters' => array('a' => $some_key, 'b' => $some_id),
         );
  
         $form['submit'] = array(
